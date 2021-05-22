@@ -29,6 +29,10 @@ function CountryDetails({ route }) {
           <Text>Loading...</Text>
         ) : (
           <View>
+            <View>
+              {console.log('Country loaded')}
+
+              </View>
             <View style={{ padding: 16 }}>
               <Text
                 style={{

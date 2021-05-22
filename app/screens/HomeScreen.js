@@ -5,7 +5,7 @@ import NumberFormat from "react-number-format";
 function HomeScreen({ navigation }) {
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
-
+  console.log('Page loaded');
   useEffect(() => {
     fetch("https://disease.sh/v3/covid-19/all")
       .then((response) => response.json())
